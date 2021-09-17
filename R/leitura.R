@@ -14,6 +14,5 @@ rfscanner <- function(file)
 {
   dados <- readr::read_csv2(file)
   utils::head(dados)
-
 }
 
